@@ -6,4 +6,7 @@
 public with sharing class Calculator {
     public Calculator() {
     }
+    public static integer addMethod(integer a, integer b){
+        return a+b;
+    }
 }
